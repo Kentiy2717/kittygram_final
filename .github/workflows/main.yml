@@ -19,7 +19,7 @@ jobs:
           POSTGRES_PASSWORD: ${{ secrets.POSTGRES_PASSWORD }}
           POSTGRES_DB: ${{ secrets.POSTGRES_DB }}
         ports:
-          - 5432:${{ secrets.DB_PORT }}
+          - 5432:5432
         # Эта конструкция описывает проверку готовности сервиса postgres
         # Если её не будет, то тесты могут запуститься раньше, чем сервер PostgreSQL
         # В результате тесты опять решат, что базы нет, — и упадут
