@@ -28,4 +28,4 @@ services:
       - static_volume:/staticfiles/
       - media_volume:/app/media/
     ports:
-      - 9000:80
+      - "9000:80"
