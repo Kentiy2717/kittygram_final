@@ -11,12 +11,7 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    'sherrycask.mooo.com',
-    '158.160.92.236',
-    '127.0.0.1',
-    'localhost'
-]
+ALLOWED_HOSTS = (os.getenv('ALLOWED_HOSTS')).split(', ')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -90,7 +85,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'ru-RU'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'MSK'
 
 USE_I18N = True
 
