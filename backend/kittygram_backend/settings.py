@@ -1,18 +1,19 @@
 import os
 from pathlib import Path
 
-import environ
+from django.core.management import environ
 from dotenv import load_dotenv
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 load_dotenv()
+environ.Env.read_env()
 
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 DEBUG = False
 
-ALLOWED_HOSTS = environ.Env().list('ALLOWED_HOSTS')
+ALLOWED_HOSTS = environ.get_environ('ALLOWED_HOSTS').split(', ')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
