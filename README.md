@@ -1,6 +1,8 @@
 ### Контейнеры и CI/CD для Kittygram
 Работа выполнен в рамках обучения на курсе "Python разработчик буткемп" Яндекс Практикума. Настройка автодеплоя на сервер в Docker.
 
+![example workflow](https://github.com/Kentiy2717/kittygram_final/actions/workflows/main.yml/badge.svg)
+
 Август 2024.
 
 ### Технологии
