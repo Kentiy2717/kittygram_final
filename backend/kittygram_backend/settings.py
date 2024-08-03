@@ -60,7 +60,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'kittygram_backend.wsgi.application'
 
 
-if os.getenv('DB_WHICH') == 'postgres':
+if os.getenv('DB_WHICH'):
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
@@ -71,7 +71,7 @@ if os.getenv('DB_WHICH') == 'postgres':
             'PORT': os.getenv('DB_PORT', 5432)
         }
     }
-elif os.getenv('DB_WHICH') == 'sqlite':
+else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
