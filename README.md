@@ -7,7 +7,11 @@
 
 ![example event parameter](https://github.com/Kentiy2717/kittygram_final/actions/workflows/main.yml/badge.svg?event=push)
 
-Бранч
+Бранч-badge
+
+![example branch parameter](https://github.com/Kentiy2717/kittygram_final/actions/workflows/main.yml/badge.svg?branch=badge)
+
+Бранч-main
 
 ![example branch parameter](https://github.com/Kentiy2717/kittygram_final/actions/workflows/main.yml/badge.svg?branch=badge)
 
