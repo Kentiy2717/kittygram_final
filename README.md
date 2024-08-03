@@ -3,6 +3,14 @@
 
 ![example workflow](https://github.com/Kentiy2717/kittygram_final/actions/workflows/main.yml/badge.svg)
 
+Ивент
+
+![example event parameter](https://github.com/Kentiy2717/kittygram_final/actions/workflows/main.yml/badge.svg?event=push)
+
+Бранч
+
+![example branch parameter](https://github.com/Kentiy2717/kittygram_final/actions/workflows/main.yml/badge.svg?branch=badge)
+
 Август 2024.
 
 ### Технологии
