@@ -168,4 +168,4 @@ jobs:
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
-        message: Деплой kittygram успешно выполнен! За'push'ил - ${{ github.actor }} с посланием - ${{ github.event.commits[0].message }}. Если угодно, то вот ссылка на коммит - https://github.com/${{ github.repository }}/commit/${{ github.sha }}
+        message: Деплой kittygram успешно выполнен! За'push'ил - ${{ github.actor }} с посланием - "${{ github.event.commits[0].message }}". Если угодно, то вот ссылка на коммит - https://github.com/${{ github.repository }}/commit/${{ github.sha }}
