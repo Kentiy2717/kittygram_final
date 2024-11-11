@@ -7,7 +7,9 @@
 
 ### Технологии
 
-Python, Django, Pytest, Flake8, Docker
+```
+Python   Django   Pytest   Flake8   Docker
+```
 
 ### Команда проекта
 
