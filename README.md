@@ -25,7 +25,7 @@ Python, Django, Pytest, Flake8, Docker
 
 ### Как запустить проект
 
-Проект "Tasky" - доступен по адресу https://sherrycask.zapto.org
+Проект "Tasky" - доступен по адресу sherrycask.crabdance.com
 Проект "Kittygram" - доступен по адресу https://sherrycask.mooo.com
 
 #  Как работать с репозиторием финального задания
